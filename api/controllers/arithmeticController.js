@@ -11,8 +11,8 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
-    //'add':      function(a,b) { return +a + +b },  klc Modifying the add function
-    'add': function(a,b) { return a + b },
+    'add':      function(a,b) { return +a + +b },  //klc Modifying the add function
+    //'add': function(a,b) { return a + b },  //klc because this is for demo
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
